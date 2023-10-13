@@ -84,10 +84,10 @@ def convert_df_to_dict(df):
 
 
 # Step 1
-# df = scrape_sitemaps(sitemaps)
-# url_list_1 = convert_df_to_list(df)
-# urls = merge_url_lists(url_list_1, additional_urls)
-# scrape_pages(urls)
+ df = scrape_sitemaps(sitemaps)
+ url_list_1 = convert_df_to_list(df)
+ urls = merge_url_lists(url_list_1, additional_urls)
+ scrape_pages(urls)
 
 
 # create the length function
