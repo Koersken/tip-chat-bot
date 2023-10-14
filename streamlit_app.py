@@ -117,9 +117,9 @@ def hide_streamlit_header_footer():
 
 
 def main():
-    st.title("SEO Q&A Chatbot")
+    st.title("TIP Q&A Chatbot")
     st.write(
-        "“The great aim of education is not knowledge but action.” ― Herbert Spencer"
+        "“TIP TIP FIGHT FIGHT FIGHT!"
     )
 
     hide_streamlit_header_footer()
@@ -134,7 +134,7 @@ def main():
         response = generate_assistant_response(augmented_query)
         add_to_database(query, response)
     with st.sidebar:
-        print_markdown_from_file("case_studies.md")
+        #print_markdown_from_file("case_studies.md")
 
 
 if __name__ == "__main__":
