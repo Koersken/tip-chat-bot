@@ -133,8 +133,6 @@ def main():
         augmented_query = augment_query(contexts, query)
         response = generate_assistant_response(augmented_query)
         add_to_database(query, response)
-    with st.sidebar:
-        #print_markdown_from_file("case_studies.md")
 
 
 if __name__ == "__main__":
