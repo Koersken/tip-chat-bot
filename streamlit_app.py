@@ -125,7 +125,7 @@ def main():
     hide_streamlit_header_footer()
     display_existing_messages()
 
-    query = st.chat_input("Ask any question related to SEO")
+    query = st.chat_input("Ask any question related to TIP")
     if query:
         add_user_message_to_session(query)
         query_embedding = get_query_embedding(query)
